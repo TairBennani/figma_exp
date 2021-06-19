@@ -1,14 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
-}
-html {
     box-sizing: border-box;
+    /* border: none; */
+}
+/* html {
+
 }
 *, *::before, *::after {
     box-sizing: inherit;
-}
+} */
 
 body {
     font-family: Montserrat;
@@ -21,8 +22,7 @@ body {
     .form {
         width: 1280px;
         height: 650px;
-        margin: auto;
-        top: 100px;
+        margin:100px auto;
         position: relative;
         background: #F4F4F4;
 
@@ -82,27 +82,28 @@ body {
             width: 1120px;
             height: 500px;
             margin: auto;
-            /* border: 1px solid red; */
-            position: relative;
             top: 75px;
-
+            left: 80px;
+            position: absolute;
 
         }
             .left {
-                width: 560px;
+                width: 50%;
                 height: 500px;
-                display: inline-block;
+                /* display: block; */
                 z-index: -9000;
 
                 background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
                 box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
                 border-radius: 1px;
+
+                float: left;
             }
             .right {
                 border: 1px solid blue;
-                width: 560px;
+                width: 50%;
                 height: 500px;
-                display: inline-block;
+                /* display: inline-block; */
                 float: right;
                 background: #FFFFFF;
             }
@@ -120,29 +121,6 @@ body {
                     vertical-align: middle;
                     display: table-cell;
                 }
-                .contacts {
-                    width: 320.18px;
-                    height: 172px;
-                    margin: 50px auto;
-                    /* border: 1px solid red; */
-                }
-                    input {
-                        width: 320px;
-                        height: 50px;
-                        cursor: text;
-                        background: #F8F8F8;
-                        border: 1px solid #E4E4E4;
-                        border-radius: 5px;
-                        padding-left: 20px;
-
-                        font-size: 14px;
-                        font-weight: 600;
-
-                        /* opacity: 0.3; */
-                    }
-                        /* input[value] {
-                            opacity: 0.2;
-                        } */
 
                     .font_2 {
                         font-size: 12px;
