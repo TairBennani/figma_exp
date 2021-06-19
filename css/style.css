@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
 }
-/* html {
+html {
     box-sizing: border-box;
 }
 *, *::before, *::after {
     box-sizing: inherit;
-} */
+}
 
 body {
     font-family: Montserrat;
@@ -92,7 +91,7 @@ body {
             .left {
                 width: 560px;
                 height: 500px;
-                display: block;
+                display: inline-block;
                 z-index: -9000;
 
                 background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
@@ -103,7 +102,7 @@ body {
                 border: 1px solid blue;
                 width: 560px;
                 height: 500px;
-                display: flex;
+                display: inline-block;
                 float: right;
                 background: #FFFFFF;
             }
@@ -112,20 +111,19 @@ body {
                     height: 136px;
                     left: 640px;
                     top: 75px;
-                    margin: auto;
+
                     background: #F8F8F8;
                     border-radius: 30px;
                     font-weight: 800;
                     font-size: 30px;
                     text-align: center;
-                    align-items: center
+                    vertical-align: middle;
                     display: table-cell;
                 }
                 .contacts {
                     width: 320.18px;
                     height: 172px;
                     margin: 50px auto;
-                    display: block;
                     /* border: 1px solid red; */
                 }
                     input {
