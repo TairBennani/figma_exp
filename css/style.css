@@ -2,7 +2,119 @@
     margin: 0;
     padding: 0;
 }
-p {
-    font-size: 30px;
-    font-family: Montserrat;
+html {
+    box-sizing: border-box;
 }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+    color: #212121;
+    background: #E5E5E5;
+}
+
+    .form {
+        width: 1280px;
+        height: 650px;
+        margin: auto;
+        top: 100px;
+        position: relative;
+        background: #F4F4F4;
+
+    }
+        .styleFont_1 {
+            display: inline-block;
+            color: white;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            position: absolute;
+            z-index: 10;
+        }
+        .Reduslim {
+            top: 115px;
+            left: 120px;
+        }
+        .ECO {
+            top: 517px;
+            left: 120px;
+        }
+        .ellipse_7 {
+            position: absolute;
+            width: 688px;
+            height: 688px;
+            left: 315px;
+            top: -19px;
+
+            opacity: 0.03;
+            /* white */
+
+            border: 20px solid #FFFFFF;
+            border-radius: 400px;
+            z-index: 10;
+        }
+        .ellipse_6 {
+            position: absolute;
+            width: 398px;
+            height: 398px;
+            left: 100px;
+            top: 146px;
+            /* green */
+            border-radius: 400px;
+            background: #428A60;
+            z-index: 20;
+        }
+        #img_2 {
+            position: absolute;
+            width: 465px;
+            height: 255px;
+            left: 137px;
+            top: 287px;
+            z-index: 30;
+
+        }
+        .leftRight {
+            width: 1120px;
+            height: 500px;
+            margin: auto;
+            /* border: 1px solid red; */
+            position: relative;
+            top: 75px;
+
+
+        }
+            .left {
+                width: 560px;
+                height: 500px;
+                display: inline-block;
+                z-index: -9000;
+
+                background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
+                box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+                border-radius: 1px;
+            }
+            .right {
+                border: 1px solid blue;
+                width: 560px;
+                height: 500px;
+                display: inline-block;
+                float: right;
+            }
+                #rect_2 {
+                    width: 560px;
+                    height: 136px;
+                    left: 640px;
+                    top: 75px;
+
+                    background: #F8F8F8;
+                    border-radius: 30px;
+                    font-weight: 800;
+                    font-size: 30px;
+                    text-align: center;
+                    vertical-align: middle;
+                    display: table-cell;
+                }
