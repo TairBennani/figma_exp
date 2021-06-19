@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    /* border: none; */
 }
 html {
     box-sizing: border-box;
@@ -18,13 +18,14 @@ body {
     background: #E5E5E5;
 }
 
-    .form {
+    .wrapper {
         width: 1280px;
-        height: 650px;
-        margin: auto;
-        top: 100px;
+        height: 1000px;
+        margin: 20px auto;
+
         position: relative;
         background: #F4F4F4;
+        outline:1px solid red;
 
     }
         .styleFont_1 {
@@ -33,16 +34,17 @@ body {
             font-style: normal;
             font-weight: 700;
             font-size: 18px;
-            position: absolute;
             z-index: 10;
         }
         .Reduslim {
-            top: 115px;
-            left: 120px;
+            top: 15px;
+            left: 15px;
+            position: absolute;
         }
         .ECO {
-            top: 517px;
-            left: 120px;
+            top:15px;
+            left: 15px;
+            position: absolute;
         }
         .ellipse_7 {
             position: absolute;
@@ -53,7 +55,6 @@ body {
 
             opacity: 0.03;
             /* white */
-
             border: 20px solid #FFFFFF;
             border-radius: 400px;
             z-index: 10;
@@ -69,42 +70,49 @@ body {
             background: #428A60;
             z-index: 20;
         }
-        #img_2 {
-            position: absolute;
-            width: 465px;
-            height: 255px;
-            left: 137px;
-            top: 287px;
-            z-index: 30;
 
-        }
         .leftRight {
             width: 1120px;
             height: 500px;
             margin: auto;
-            /* border: 1px solid red; */
+
             position: relative;
-            top: 75px;
+            /* top: 75px; */
+
+            border: 2px solid green;
 
 
         }
             .left {
                 width: 560px;
                 height: 500px;
-                display: inline-block;
+                display: block;
                 z-index: -9000;
 
                 background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
                 box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
                 border-radius: 1px;
+                position: absolute;
+                border: 2px solid red;
             }
+                #img_2 {
+                    position: absolute;
+                    width: 465px;
+                    height: 255px;
+                    left: 10px;
+                    top: 10px;
+                    z-index: 30;
+                }
             .right {
-                border: 1px solid blue;
                 width: 560px;
                 height: 500px;
                 display: inline-block;
+                z-index: -9000;
+
                 float: right;
                 background: #FFFFFF;
+
+                border: 2px solid blue;
             }
                 #rect_2 {
                     width: 560px;
@@ -120,29 +128,10 @@ body {
                     vertical-align: middle;
                     display: table-cell;
                 }
-                .contacts {
-                    width: 320.18px;
-                    height: 172px;
-                    margin: 50px auto;
-                    /* border: 1px solid red; */
+                #contacts {
+                    width: 320px;
+                    margin: auto;
                 }
-                    input {
-                        width: 320px;
-                        height: 50px;
-                        cursor: text;
-                        background: #F8F8F8;
-                        border: 1px solid #E4E4E4;
-                        border-radius: 5px;
-                        padding-left: 20px;
-
-                        font-size: 14px;
-                        font-weight: 600;
-
-                        /* opacity: 0.3; */
-                    }
-                        /* input[value] {
-                            opacity: 0.2;
-                        } */
 
                     .font_2 {
                         font-size: 12px;
