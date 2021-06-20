@@ -44,20 +44,6 @@ body {
             top: 517px;
             left: 120px;
         }
-        .ellipse_7 {
-            position: absolute;
-            width: 688px;
-            height: 688px;
-            left: 315px;
-            top: -19px;
-
-            opacity: 0.03;
-            /* white */
-
-            border: 20px solid #FFFFFF;
-            border-radius: 400px;
-            z-index: 10;
-        }
         .ellipse_6 {
             position: absolute;
             width: 398px;
@@ -67,7 +53,7 @@ body {
             /* green */
             border-radius: 400px;
             background: #428A60;
-            z-index: 20;
+            z-index: 10;
         }
         #img_2 {
             position: absolute;
@@ -85,27 +71,43 @@ body {
             top: 75px;
             left: 80px;
             position: absolute;
+            z-index: 1;
 
         }
             .left {
                 width: 50%;
                 height: 500px;
-                /* display: block; */
+
                 z-index: -9000;
 
                 background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
                 box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
                 border-radius: 1px;
-
+                position: relative;
                 float: left;
             }
+                .ellipse_7 {
+                    position: absolute;
+                    width: 688px;
+                    height: 688px;
+                    left: 250px;
+                    top: -65px;
+
+                    opacity: 0.03;
+
+                    border: 20px solid #FFFFFF;
+                    border-radius: 400px;
+                    z-index: 2;
+                }
             .right {
-                border: 1px solid blue;
                 width: 50%;
                 height: 500px;
-                /* display: inline-block; */
+                box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+                border-radius: 1px;
+
                 float: right;
                 background: #FFFFFF;
+                z-index: 100;
             }
                 #rect_2 {
                     width: 560px;
@@ -121,7 +123,25 @@ body {
                     vertical-align: middle;
                     display: table-cell;
                 }
+                    form {
+                        width: 320px;
+                        height: 172px;
+                        margin: 52px auto;
+                        z-index: 1000;
+                    }
+                        input {
+                            margin: 10px 0 10px 0;
+                            width: 320px;
+                            height: 50px;
+                            padding-left: 20px;
+                            background: #F8F8F8;
+                            border: 1px solid #E4E4E4;
+                            box-sizing: border-box;
+                            border-radius: 5px;
 
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
                     .font_2 {
                         font-size: 12px;
                         font-weight: 800;
