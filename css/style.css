@@ -134,22 +134,21 @@ body {
                             width: 320px;
                             height: 50px;
                             padding-left: 20px;
-                            background: #F8F8F8;
-                            border: 1px solid #E4E4E4;
-                            box-sizing: border-box;
-                            border-radius: 5px;
-
                             font-size: 14px;
                             font-weight: 600;
+
+                            color: #212121;
+                            /* opacity: 0.2; */
+                            background-color: rgba(248,248,248,1);
+                            border: 1px solid rgba(228,228,228,1);
+                            border-radius: 5px;
                         }
+
+
                     .font_2 {
                         font-size: 12px;
                         font-weight: 800;
                     }
-
-                        /* [value] {
-                            opacity: 0.2;
-                        } */
                         .font_2 > * {
                             color: green;
                         }
