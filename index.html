@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Сделай шаг к выздоровлению</title>
 </head>
 <body>
@@ -28,16 +30,21 @@
             </div>
 
             <div class="right">
-                <div id="rect_2"><p>Сделай шаг к<br/> выздоровлению</p></div>
+                <div id="rect_2"><p>Сделай шаг к<br/> выздоровлению</p>
+                </div>
 
-                    <form>
-                        <fieldset style="border : none">
-                            <p class="font_2">ВАШЕ <span>ИМЯ</span></p>
-                            <input type="text" value="Алексей">
-                            <p class="font_2">ВАШ <span>ТЕЛЕФОН</span></p>
-                            <input type="text" value="+7 (923) 456 78-90">
-                        </fieldset>
-                    </form>
+                <form>
+                    <fieldset style="border : none">
+                        <p class="font_2">ВАШЕ <span>ИМЯ</span></p>
+                        <input type="text" value="Алексей">
+                        <p class="font_2">ВАШ <span>ТЕЛЕФОН</span></p>
+                        <input class="inp_2" type="text" value="+7 (923) 456 78-90">
+                        <select class="language" name="lang">
+                            <option class="ru" value="RU">RU</option>
+                            <option class="uk" value="EN">EN</option>
+                        </select>
+                    </fieldset>
+                </form>
 
 
             </div>
