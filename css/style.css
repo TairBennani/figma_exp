@@ -192,6 +192,24 @@ body {
                             .wrapper-lastLine {
                                 position: absolute;
                             }
+                            .submit {
+                                position: relative;
+                                top: 88px;
+
+                            }
+                                .submit > input {
+                                    color: #FFFFFF;
+                                    background: #428A60;
+                                    border-radius: 5px;
+                                    text-indent: -40px;
+
+                                }
+                            .vector {
+                                position: absolute;
+                                top: 30px;
+                                left: 190px;
+
+                            }
 
                     .font_2 {
                         font-size: 12px;
