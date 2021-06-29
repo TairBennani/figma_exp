@@ -34,8 +34,6 @@ function formSelect() {
 
 }
 
-
-
 // После загрузки DOM - получаем список
 
 $(function () {
@@ -43,3 +41,50 @@ $(function () {
     formSelect();
 
 });
+
+$(document).ready(function() {
+    // $('#test').text("I've changed by JQuerry");
+
+    $('.inp_1').focus(function() {
+        if ($(this).val() == "Алексей") {
+            $(this).val("").css("opacity","1").css("border","blue");
+        }
+
+    });
+
+    $('.inp_1').blur(function() {
+        $(this).css("border","1px solid rgba(0,0,0,1)");;
+    });
+
+        $('.inp_2').focus(function() {
+            if ($(this).val() == "+7(123)456 78-90") {
+                $(this).val("").css("opacity","1").css("border","blue");
+            }
+
+        });
+
+        $('.inp_2').blur(function() {
+            $(this).css("border","1px solid rgba(0,0,0,1)");;
+        });
+
+
+
+
+
+    // $('.darrr').blur(function() {
+    //
+    //     if ($(this).val() == "") {
+    //         $(this).val("Алексей").css('border','2px solid rgba(2,133,168, 0.6)').css("opacity","0.2");
+    //     }
+    //     else {
+    //         $(this).css('border','2px solid green');
+    //     }
+    //
+    // });
+
+
+
+
+
+
+}); // конец ready

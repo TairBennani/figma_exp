@@ -134,6 +134,23 @@ body {
 
                         position: relative;
                     }
+                        .name, .phone {
+                            font-weight: 600;
+                            position: absolute;
+                            left: 20px;
+                            z-index: 9000;
+                            font-size: 14px;
+                            opacity: 0.2;
+
+
+                        }
+                        .name {
+                            top: 40px;
+                        }
+                        .phone {
+                            top: 125px;
+                        }
+
                         input {
                             margin: 10px 0 10px 0;
                             width: 320px;
@@ -141,16 +158,21 @@ body {
                             padding-left: 20px;
                             font-size: 14px;
                             font-weight: 600;
-
                             color: #212121;
-                            /* opacity: 0.2; */
                             background-color: rgba(248,248,248,1);
-                            border: 1px solid rgba(228,228,228,1);
+                            border: 1px solid rgba(0,0,0,1);
                             border-radius: 5px;
                         }
+                            .darrr {
+                                opacity: 0.2;
+                            }
+                                .darrrOnFocus {
+                                    opacity: 1;
+                                }
                             .inp_2 {
                                 width: 184px;
                             }
+
                             .select-events {
                                 margin-left: 20px;
                                 width: 117px;
