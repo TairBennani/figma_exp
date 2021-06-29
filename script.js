@@ -68,23 +68,4 @@ $(document).ready(function() {
         });
 
 
-
-
-
-    // $('.darrr').blur(function() {
-    //
-    //     if ($(this).val() == "") {
-    //         $(this).val("Алексей").css('border','2px solid rgba(2,133,168, 0.6)').css("opacity","0.2");
-    //     }
-    //     else {
-    //         $(this).css('border','2px solid green');
-    //     }
-    //
-    // });
-
-
-
-
-
-
 }); // конец ready
