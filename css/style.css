@@ -154,7 +154,7 @@ body {
                             .select-events {
                                 margin-left: 20px;
                                 width: 117px;
-
+                                cursor: pointer;
                                 font-weight: 600;
                                 font-size: 14px;
 
@@ -202,6 +202,8 @@ body {
                                     background: #428A60;
                                     border-radius: 5px;
                                     text-indent: -40px;
+                                    cursor: pointer;
+                                    border: none;
 
                                 }
                             .vector {
@@ -218,3 +220,117 @@ body {
                         .font_2 > * {
                             color: green;
                         }
+    footer {
+        visibility: hidden;
+    }
+
+@media (max-width: 920px) {
+    body{
+    background-color:red;
+    }
+        form, .leftRight {
+            width: 320px;;
+        }
+        .styleFont_1{
+            color: black;
+        }
+        #img_2 {
+            width: 223px;
+            height: 122px;
+            top: 120px;
+            left: 56px;
+
+        }
+        .ellipse_7 {
+            visibility: hidden;
+        }
+        .ellipse_6 {
+            width: 202px;
+            height: 202px;
+            top: 72px;
+            left: 59px;
+        }
+        .left {
+            background: blue;
+        }
+        .leftRight {
+            width: 320px;
+            top: 40px;
+            left: 0px;
+        }
+        .left {
+            float: none;
+            width: 100%;
+            height: 234px;
+        }
+        .right {
+            float: none;
+            width: 100%;
+        }
+        .Reduslim {
+            top: 40px;
+            left: 20px;
+        }
+        .ECO {
+            top: 40px;;
+            left: 259px;
+        }
+        form {
+            margin-top: 0;
+        }
+        fieldset {
+            margin: 20px;
+        }
+        input {
+            width: 280px;
+        }
+        .inp_2 {
+            width: 174px;
+        }
+        .select-events {
+            margin-left: 0;
+            width: 97px;
+        }
+        footer {
+            visibility: visible;
+        }
+            .trusted, .secure {
+                color: #212121;
+                z-index: 9000;
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .trusted {
+                position: absolute;
+                top: 710px;
+                left: 80px;
+            }
+            .secure {
+                position: absolute;
+                top: 710px;
+                left: 188px;
+            }
+            .rect_5 {
+                position: absolute;
+                top: 713px;
+                left: 156px;
+
+                width: 12.14px;
+                height: 9.29px;
+                background: #428A60;
+                border-radius: 3px;
+                z-index: 9000;
+            }
+            .rect_6 {
+                position: absolute;
+                top: 706px;
+                left: 158px;
+
+                width: 8px;
+                height: 10px;
+                border: 2px solid #428A60;
+                border-radius: 9px;
+
+                z-index: 9000;
+            }
+}
