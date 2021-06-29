@@ -225,9 +225,7 @@ body {
     }
 
 @media (max-width: 920px) {
-    body{
-    background-color:red;
-    }
+
         form, .leftRight {
             width: 320px;;
         }
@@ -251,7 +249,7 @@ body {
             left: 59px;
         }
         .left {
-            background: blue;
+            background: white;
         }
         .leftRight {
             width: 320px;
